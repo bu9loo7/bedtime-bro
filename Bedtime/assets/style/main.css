@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(../font/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url(../font/FiraSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/Helvetica.ttf);
+}
+
+body {
+    font-family: "Fira Sans", Helvetica, sans-serif;
+    margin: 0;
+}
+
+b {
+    color: rgb(246, 128, 33);
+}
+
+section {
+    padding: 2.5rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.full-container {
+    width: 1170px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.normal--title {
+    font-size: 46px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.normal--title b {
+    font-weight: 700;
+}
+
+.normal--content {
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.title--small {
+    font-size: 32px;
+    line-height: 1.3em;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+}
+
+.content--small {
+    text-align: left;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.content--small b {
+    color: #FFFFFF;
+}
+
+.gradient--back {
+    background-image: linear-gradient(to right, orange, #00FFFF);
+}
+.banner {
+    padding: 20px 40px;
+    background-image: linear-gradient(to right, orange, #00FFFF);
+}
+
+.banner--title {
+    padding: 20px 0;
+}
+
+.banner--title img {
+    width: inherit;
+}
+
+.banner--content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner--text {
+    width: 58%;
+}
+
+.banner--img {
+    margin-top: 100px;
+    padding: 0 10px;
+    width: 31%;
+}
+
+.banner--img img {
+    max-width: 100%;
+}
+
+.banner--text .banner--content__top {
+    color: #FFFFFF;
+    font-family: "Fira Sans", Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 57.2px;
+}
+
+.banner--text .banner--content__top b {
+    font-weight: 700;
+}
+
+.banner--content__bottom {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    line-height: 1.4em;
+}
+
+.banner--content__bottom b {
+    color: #000;
+}
+
+.btn {
+    font-family: 'Anton',sans-serif;
+}
+.btn--black {
+    background-color: #000000;
+    border-color: #bababa;
+    color: #FFFFFF;
+}
+
+
+.btn--middle {
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.btn--banner {
+    margin: 20px auto;
+}
+
+.partners {
+    padding: 0 20px;
+}
+
+.partners--group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 60px;
+}
+.seen--title {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(246, 128, 33);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.quote-testimonial {
+    display: flex;
+    padding: 0 4.0625rem;
+}
+.quote-testimonial__img {
+    width: 160px;
+}
+
+.quote-testimonial__img img {
+    width: 130px;
+}
+
+.quote-testimonial__details {
+    width: calc(100% - 160px);
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+}
+
+.quote-testimonial__author {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.4;
+    margin-top: 12px;
+}
+
+.quote-testimonial__author span {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.description {
+    padding: 3.75rem 2.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.description h2 {
+    font-size: 22px;
+}
+
+.camping {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://assets.funnelkonnekt.com/Funnel/assets/images/628bd2f3-20ab-402a-b10c-4b48044ce811/f1b42b71-9cd6-4093-ad7e-b2c2152f668c/Mask-Group-16-2x.png?versionId=dKcap8dkm3s6XTo8I_87FWqjAyHFWMPS);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+}
+
+.camping--img {
+    width: 100%;
+}
+
+.camping--content__title {
+    text-align: left;
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 6.25rem;
+    color: rgb(255, 255, 255);
+}
+
+.camping--content__details {
+    margin-top: .9375rem;
+    text-align: left;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.btn--wrapper {
+    margin-top: 1.875rem;
+}
+
+.btn--orange {
+    background-color: rgb(246, 128, 33);
+    border-color: #d2d2d2;
+    color: #FFFFFF;
+}
+
+.camping--content__btn {
+    margin: 1.25rem 0;
+}
+
+.stay {
+    background-image: url(https://assets.funnelkonnekt.com/Funnel/assets/images/628bd2f3-20ab-402a-b10c-4b48044ce811/f1b42b71-9cd6-4093-ad7e-b2c2152f668c/Mask-Group-16-2x.png?versionId=dKcap8dkm3s6XTo8I_87FWqjAyHFWMPS);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    padding: 3.75rem 0;
+}
+
+.stay--content__title {
+    text-align: left;
+    font-size: 46px;
+    line-height: 1.3em;
+    font-weight: 700;
+}
+
+.stay--content__details {
+    margin-top: .9375rem;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+.stay--img img {
+    max-width: 100%;
+}
+
+.car {
+    background-image: linear-gradient(to right, orange, #00FFFF);
+}
+
+.car--content__title {
+    font-size: 46px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: system-ui;
+    margin-top: .625rem;
+}
+
+.car--content__details {
+    margin-top: .9375rem;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5em;
+}
+
+.car--content__details b {
+    color: #FFFFFF;
+}
+
+.goodbye {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    margin-top: -5px;
+}
+
+.goodbye .row {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin: 30px 0px 0px;
+    outline: none;
+    height: auto;
+    margin-top: 10px;
+}
+
+.goodbye--img {
+    padding: 0 .625rem;
+    margin-top: 3.75rem;
+}
+
+.goodbye--img img {
+    width: 400px;
+}
+
+.goodbye--content {
+    margin-top: 3.75rem;
+    color: #FFFFFF;
+}
+
+.goodbye--content__title {
+    font-size: 46px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.3em;
+    font-weight: 700;
+    margin-top: .625rem;
+}
+
+.goodbye--content__title b {
+    font-weight: 700;
+}
+
+.goodbye--content__details {
+    margin-top: .9375rem;
+    text-align: left;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+}
+
+.sensor {
+    background-image: url(https://assets.funnelkonnekt.com/Funnel/assets/images/628bd2f3-20ab-402a-b10c-4b48044ce811/f1b42b71-9cd6-4093-ad7e-b2c2152f668c/Mask-Group-16-2x.png?versionId=dKcap8dkm3s6XTo8I_87FWqjAyHFWMPS);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+}
+
+.sensor .row {
+    padding: 1.25rem .625rem;
+}
+
+.sensor--content {
+    padding: 0 1.25rem;
+}
+
+.sensor--content__details {
+    margin-top: .9375rem;
+}
+
+.sensor--img img {
+    padding: 0 .625rem;
+}
+
+.sensor--btn {
+    margin: 1.25rem 0;
+}
+
+.performance .row {
+    padding: 1.875rem 0;
+}
+
+.no-drama--title {
+    font-weight: 500;
+    text-align: center;
+}
+
+.no-drama--content {
+    margin-top: .9375rem;
+    text-align: center;
+}
+
+.superlight {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: none;
+    background-color: rgb(246, 128, 33);
+    background-image: url(https://assets.funnelkonnekt.com/Funnel/assets/images/628bd2f3-20ab-402a-b10c-4b48044ce811/f1b42b71-9cd6-4093-ad7e-b2c2152f668c/Baby.png?versionId=MOrBD6W79xvWOZwbtogMeF4ffznVzFWT);
+    -webkit-background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-y: -3px;
+}
+
+.superlight .row {
+    padding: 1.875rem 0;
+}
+
+.superlight--content {
+    color: #FFFFFF;
+}
+
+.stay-safe {
+    background-color: #000;
+    color: #FFFFFF;
+    margin-top: -0.3125rem;
+}
+
+.stay-safe__wrapper {
+    padding: 2.5rem 0;
+}
+
+.stay-safe--title {
+    text-align: center;
+}
+
+.stay-safe--title b {
+    font-weight: 400;
+}
+
+.stay-safe--content {
+    text-align: center;
+    margin-top: .9375rem;
+}
+
+.video-section--title {
+    text-align: center;
+}
+
+.video--btn__wrapper {
+    display: flex;
+}
+
+.video--section__btn {
+    margin: 1.25rem auto;
+}
+
+.questions {
+    background-color: #000;
+}
+
+.question--title {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.question--item__group {
+    margin-top: 1.875rem;
+}
+
+.qustion--item {
+    border-bottom: none;
+    padding: 1em 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #dfdfdf;
+    -webkit-box-shadow: 32px 10px 57px 0px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 32px 10px 57px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 32px 10px 57px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 200;
+    color: #2d2d2d;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.qustion--item p {
+    margin: 0;
+}
+
+.question--item__plus {
+    line-height: 1em;
+    color: #c5366b;
+    font-family: sans-serif;
+    float: left;
+    font-weight: bolder;
+    padding-right: 0.3em;
+    font-size: 1.3em;
+}
+
+.question--btn__wrapper {
+    display: flex;
+}
+
+footer {
+    background-image: url(https://assets.funnelkonnekt.com/Funnel/assets/images/628bd2f3-20ab-402a-b10c-4b48044ce811/f1b42b71-9cd6-4093-ad7e-b2c2152f668c/Mask-Group-16-2x.png?versionId=dKcap8dkm3s6XTo8I_87FWqjAyHFWMPS);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    padding: .625rem 0;
+    text-align: center;
+}
+
+.footer--content {
+    padding: 40px 0;
+}
+
+.footer--title {
+    padding-top: 3.125rem;
+}
